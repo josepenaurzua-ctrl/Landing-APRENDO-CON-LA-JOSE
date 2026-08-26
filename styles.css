@@ -30,7 +30,7 @@ em { font-weight:400; }
 .topbar { background:var(--clay); font-size:12px; letter-spacing:.02em; }
 .site-header { border-bottom:1px solid rgba(29,29,27,.12); }
 .brand { gap:0; font-family:Montserrat,Arial,sans-serif; }
-.brand-logo { display:block; width:104px; height:auto; mix-blend-mode:screen; }
+.brand-logo { display:block; width:104px; height:auto; }
 .brand-mark { display:none; }
 nav { font-size:13px; font-weight:500; }
 .nav-cta { font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }
@@ -54,4 +54,5 @@ nav { font-size:13px; font-weight:500; }
 .footer-brand { background:#fff9f4; padding:5px 9px; }
 .footer-brand .brand-logo { width:86px; }
 .button-dark { background:var(--moss); }
+.hero-caption { top:auto; bottom:28px; }
 @media (max-width:600px) { .brand-logo { width:78px; }.footer-brand .brand-logo { width:74px; }.site-header { height:74px; }.nav-cta { font-size:9px; } }
